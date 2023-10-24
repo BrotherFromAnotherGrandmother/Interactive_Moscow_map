@@ -10,3 +10,7 @@ class Place(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Images(models.Model):
+    image = models.ImageField(upload_to='images/', blank=True)
