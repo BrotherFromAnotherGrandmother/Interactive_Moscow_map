@@ -5,7 +5,7 @@ from django.shortcuts import render
 def get_media(request):
     template = 'images.html'
     urls = [
-        "https://raw.githubusercontent.com/devmanorg/where-to-go-places/master/media/4f793576c79c1cbe68b73800ae06f06f.jpg",
+        "/Users/macbook/PycharmProjects/Interactive_Moscow_map/where_to_go/media/images4f793576c79c1cbe68b73800ae06f06f.jpg",
         "https://raw.githubusercontent.com/devmanorg/where-to-go-places/master/media/7a7631bab8af3e340993a6fb1ded3e73.jpg",
         "https://raw.githubusercontent.com/devmanorg/where-to-go-places/master/media/a55cbc706d764c1764dfccf832d50541.jpg",
         "https://raw.githubusercontent.com/devmanorg/where-to-go-places/master/media/65153b5c595345713f812d1329457b54.jpg",
